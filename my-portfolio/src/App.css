@@ -1,10 +1,37 @@
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items:center;
+  background-color: #140005;
+  min-height: 100vh;
+  overflow-y: auto;
 }
 
 .Contents{
   max-width: 1500px;
 }
+.headerMenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  margin: 30px;
+}
+.About, .Portfolio, .Contact{
+  margin-right: 50px;
+  margin-left: 50px;
+}
 
+.About-Content{
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.AboutDesc{
+  flex: 1;
+}
+.AboutImg{
+  flex: 1;
+}
