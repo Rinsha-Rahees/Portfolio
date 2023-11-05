@@ -1,34 +1,33 @@
-import './Header.css';
-
 import React from 'react'
 
 function Header() {
   return (
-    <div className='headerContainer'>
+    <header className="App-header items-center p-4 text-beige-light bg-beige-dark text-2xl font-medium">
 
-        {/* <header className="App-header"> */}
-
-        
-          <div className="headerMenu">
-            <div className="About">
-              <p className='text-xl font-medium text-white'>About</p>
-            </div>
-            <div className="Portfolio">
-              <p className='text-xl font-medium text-white'>Portfolio</p>
-            </div>
-            <div className="Contact">
-              <p className='text-xl font-medium text-white'>Contact</p>
-            </div>
+      <div className="headerMenu flex flex-row justify-center items-center">
 
 
-            {/* Responsive till Tablet view.
-             MOBILE VIEW - NOT RESPONSIVE : Change to menu items in mobile view later */}
-            
-          </div>
+        <div className="About">
+          <button className='aboutBtn'>About</button>
+        </div>
 
-        {/* </header> */}
-        
-    </div>
+        <div className="Portfolio mx-24"> {/* margin-left & margin-right: 6rem; 96px */}
+          <span>Works</span>
+        </div>
+        <div className="Contact mr-24">
+          <span>Portfolio</span>
+        </div>
+        <div className="Contact">
+          <span>Contact</span>
+        </div>
+
+      </div>
+
+      {/* Responsive till Tablet view.
+             MOBILE VIEW - NOT RESPONSIVE : Change to MENU items in mobile view later */}
+
+    </header>
+
   )
 }
 

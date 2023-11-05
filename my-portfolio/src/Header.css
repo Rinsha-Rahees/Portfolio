@@ -1,9 +1,0 @@
-.headerMenu{
-    display: flex;
-    margin: 30px;
-  }
-  .About, .Portfolio, .Contact{
-    margin-right: 50px;
-    margin-left: 50px;
-  }
-  
