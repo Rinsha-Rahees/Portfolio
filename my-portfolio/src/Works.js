@@ -1,39 +1,35 @@
 import React from 'react'
-import subtitle from './subtitle'
 
 function Works() {
-    return (
+  return (
+    <div id="works" className='Works-Content  mx-10'>
 
-        <div id="works" className='items-center mx-36 md:m-4 lg:m-4 h-full object-contain'>
+    <div className="AboutDesc flex flex-col flex-1 p-6">
+      <h1 className='text-2xl xl:text-2xl text-beige-purple font-semibold'>Works</h1>
+      <p className='text-beige-purple2 mt-4'>I am a QA Engineer who bags 2+ years of experience in software quality assurance. The areas I explored spans but not limited to :
 
-            <div className='title text-5xl my-8 md:my-12 xl:text-6xl '>
-                <span >WORKS</span>
-                <hr className='solid h-1 bg-navyblue-100' />
-            </div>
+        • API testing
+        • Mobile Application Testing ( Android | iOS )
+        • Web Application Testing
+        • Test plans and Test Case Creation
+        • Test Case Maintenance
+        • Gap Analysis and Requirement Traceability Matrix
+        • Analyzing Business Requirements
+        • Suggesting changes for betterment of product
+        • Documentation and giving Demo
+
+        Domains :-
+        • Payments
+        • Chatbot
+        • Embedded Automotive</p>
+    </div>
 
 
-            <div className="Works-Content items-center flex flex-col md:flex-row bg-beige-dark h-auto">
+    {/* Responsive upto Mobile view. By default flex:col ensures it will target mobile devices. From breaking point 'md' and above 
+          we'll specify different. */}
 
-                <div className='work-item flex flex-1 flex-col bg-beige-med items-center m-4 md:mr-2 p-4'>
-                    <span className='works-title text-2xl my-4'>Netflix Clone Web App</span>
-                    <img className='w-80 h-96' src='Images\blackNwhiteFace.jpg' alt="Netflix Clone Web Application's cover picture" />
-                    <a className='my-4' href='https://www.netflix.com'>netflix.com</a>
-                    <span className='mb-4'> REACT | CSS | JS | HOOKS | REACT ROUTER DOM </span>
-                </div>
-
-
-                <div className='work-item flex flex-1 flex-col bg-beige-med items-center m-4 md:ml-2 p-4'>
-                    <span className='works-title text-2xl my-4'>Onboarding Form</span>
-                    <img className='w-80 h-96' src='Images\blackNwhiteFace.jpg' alt="Netflix Clone Web Application's cover picture" />
-                    <a className='my-4' href='https://www.netflix.com'>netflix.com</a>
-                    <span className='mb-4'> REACT | CSS | JS | HOOKS | REACT ROUTER DOM </span>
-                </div>
-
-            </div>
-
-        </div>
-
-    )
+  </div>
+)
 }
 
 export default Works

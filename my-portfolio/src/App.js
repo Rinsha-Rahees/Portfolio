@@ -1,29 +1,43 @@
 import './App.css';
 import Header from './Header';
 import About from './About';
+import Experience from './Experience';
 import Works from './Works';
-import Portfolio from './Portfolio';
 import Contact from './Contact';
 
 function App() {
   return (
-    <div className="App text-navyblue-100 bg-beige-purple2">
+    <div className="App text-beige-purple bg-navyblue-100 font-normal">
 
-      <div id="contents" className='Contents max-w-screen-2xl'>
+      <div className='App-content max-w-screen-xl overflow-y-hidden'>
 
-        <Header id="header" />
+        <div className='App-column flex flex-col flex-1 md:relative md:top-8 md:mx-20'>
 
-        <About id='about' />
+          <div className='Contents lg:fixed lg:left-1 lg:top-32 xl:fixed xl:left-20 xl:top-32 2xl:fixed 2xl:left-80 2xl:top-32'>
+            <Header id='header' /> 
+          </div>
 
-        <Works id='works' />
+          <div className='Contents lg:max-w-2xl lg:ml-96 xl:ml-96 2xl:ml-96'>
+            <About/>
+            <Experience/>
+            <Experience/>
+            <Experience/>
+            <Experience/>
+            <Works/>
+            
+           
+            
+            {/* Potfolio Downloadable pdf  */}
 
-        <Portfolio id='portfolio' />
+            {/* <Contact id='contact' /> */}
 
-        {/* Potfolio Downloadable pdf  */}
+            {/* Footer COntact */}
 
-        <Contact id='contact' />
+          </div>
 
-        {/* Footer COntact */}
+
+        </div>
+
 
       </div>
 
