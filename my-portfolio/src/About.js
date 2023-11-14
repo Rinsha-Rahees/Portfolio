@@ -5,8 +5,8 @@ function About() {
     <div id="about" className="About-Content mx-10">
 
       <div className="AboutDesc flex flex-col flex-1 p-6">
-        <h1 className='text-2xl xl:text-2xl text-beige-purple font-semibold'>About</h1>
-        <p className='text-beige-purple2 mt-4'>I am a QA Engineer who bags 2+ years of experience in software quality assurance. The areas I explored spans but not limited to :
+        <h1 className='text-xl text-beige-purple font-semibold lg:invisible'>About</h1>
+        <p className='text-beige-purple2 mt-4 2xl:text-2xl'>I am a QA Engineer who bags 2+ years of experience in software quality assurance. The areas I explored spans but not limited to :
 
           • API testing
           • Mobile Application Testing ( Android | iOS )

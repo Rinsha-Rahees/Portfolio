@@ -6,7 +6,6 @@ module.exports = {
       margin : {
         '50px' : '50px'
       }
-
     },
     colors: {
       beige: {

@@ -11,29 +11,35 @@ function App() {
 
       <div className='App-content max-w-screen-xl overflow-y-hidden'>
 
-        <div className='App-column flex flex-col flex-1 md:relative md:top-8 md:mx-20'>
+        <div className='App-column flex flex-col flex-1 md:relative md:10'>
 
-          <div className='Contents lg:fixed lg:left-1 lg:top-32 xl:fixed xl:left-20 xl:top-32 2xl:fixed 2xl:left-80 2xl:top-32'>
-            <Header id='header' /> 
+          <div className='Contents top-8 lg:fixed lg:left-10 xl:left-30 2xl:ml-96 '>
+            <Header id='header'/>
           </div>
 
-          <div className='Contents lg:max-w-2xl lg:ml-96 xl:ml-96 2xl:ml-96'>
-            <About/>
-            <Experience/>
-            <Experience/>
-            <Experience/>
-            <Experience/>
-            <Works/>
-            
-           
-            
-            {/* Potfolio Downloadable pdf  */}
 
-            {/* <Contact id='contact' /> */}
+          <div className='lg:ml-40'>
 
-            {/* Footer COntact */}
+            <div className='Contents lg:max-w-3xl lg:ml-80'>
+              <About />
+              <Experience />
+              <Experience />
+              <Experience />
+              <Experience />
+              <Works />
+
+
+
+              {/* Potfolio Downloadable pdf  */}
+
+              {/* <Contact id='contact' /> */}
+
+              {/* Footer COntact */}
+
+            </div>
 
           </div>
+
 
 
         </div>
@@ -42,7 +48,7 @@ function App() {
       </div>
 
 
-    </div>
+     </div>
   );
 }
 
