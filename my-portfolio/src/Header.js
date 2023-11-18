@@ -13,9 +13,9 @@ function Header() {
 
         <div className="headerMenu mt-2 flex flex-row flex-1 items-left md:flex md:flex-col md:flex-1 2xl:text-2xl">
 
-          <Nav href='#about'>--About</Nav>
-          <Nav href='#experience'>--Experience</Nav>
-          <Nav href='#works'>--Projects</Nav>
+          <Nav href='#about'>-About</Nav>
+          <Nav href='#experience'>-Experience</Nav>
+          <Nav href='#works'>-Projects</Nav>
           
         </div>
 
