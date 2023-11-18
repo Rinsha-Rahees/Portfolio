@@ -1,53 +1,52 @@
 import './App.css';
+import Header from './Header';
+import About from './About';
+import Experience from './Experience';
+import Works from './Works';
+import Contact from './Contact';
 
 function App() {
   return (
-    <div className="App">
-      <div className='Contents'>
-       
-        <header className="App-header">
-          <div className="headerMenu">
-            <div className="About">
-              <p className='text-xl font-medium text-white'>About</p>
-            </div>
-            <div className="Portfolio">
-              <p className='text-xl font-medium text-white'>Portfolio</p>
-            </div>
-            <div className="Contact">
-              <p className='text-xl font-medium text-white'>Contact</p>
-            </div>
+    <div className="App text-beige-purple bg-navyblue-100 font-normal">
 
+      <div className='App-content max-w-screen-xl overflow-y-hidden'>
 
-            {/* Responsive till Tablet view.
-             MOBILE VIEW - NOT RESPONSIVE : Change to menu items in mobile view later */}
-          
-          </div>
+        <div className='App-column flex flex-col flex-1 md:relative md:10'>
 
-        </header>
-
-
-        <div className="About-Content">
-
-            <div className="AboutDesc">
-              <p className='text-white text-5xl'>RINSHA RAHEES</p><br/><br/>
-              <p className='text-white text-left'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-            </div>
-              
-            <div className="AboutImg">
-              <img src='Images\blackNwhiteFace.jpg' alt='black n white face'
-              className='bg-cover bg-center'></img>
-            </div>
-            
-
-            {/* Responsive till Tablet view.
-             MOBILE VIEW - NOT RESPONSIVE : Change to menu items in mobile view later */}
-          
+          <div className='Contents top-8 lg:fixed lg:left-10 xl:left-30 2xl:ml-96 '>
+            <Header id='header'/>
           </div>
 
 
-    </div>
-      
-    </div>
+          <div className='lg:ml-40'>
+
+            <div className='Contents mb-10 lg:max-w-3xl lg:ml-80'>
+              <About />
+              <Experience />
+
+              <Works />
+
+
+
+              {/* Potfolio Downloadable pdf  */}
+
+              {/* <Contact id='contact' /> */}
+
+              {/* Footer COntact */}
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+
+
+     </div>
   );
 }
 
