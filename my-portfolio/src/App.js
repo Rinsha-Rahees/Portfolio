@@ -20,12 +20,10 @@ function App() {
 
           <div className='lg:ml-40'>
 
-            <div className='Contents lg:max-w-3xl lg:ml-80'>
+            <div className='Contents mb-10 lg:max-w-3xl lg:ml-80'>
               <About />
               <Experience />
-              <Experience />
-              <Experience />
-              <Experience />
+
               <Works />
 
 

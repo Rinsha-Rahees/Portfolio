@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       margin : {
         '50px' : '50px'
+      },
+      width: {
+        '133px': '133px',
       }
     },
     colors: {
