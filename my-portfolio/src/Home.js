@@ -9,34 +9,25 @@ import Contact from './Contact';
 
 function Home() {
   return (
-    <div className="Home text-grey bg-blue-dark leading-7 text-lg">
+    <div className="Home text-grey bg-blue-dark leading-7 text-lg relative">
 
       <div className='App-content max-w-screen-xl overflow-y-hidden'>
 
-        <div className='App-column flex flex-col flex-1 ml-3'>
+        <div className='App-column flex flex-col flex-1'>
 
-          <div className='Contents top-8 lg:fixed lg:left-10 xl:left-30 2xl:ml-96 '>
+          <div className='Contents top-8 ml-2 lg:fixed lg:left-10 xl:left-30 2xl:ml-96 '>
             <Header id='header' />
           </div>
 
 
-          <div className='lg:ml-40'>
+          <div className='ml-2 mr-12 mb-8 lg:ml-40'>
 
-            <div className='Contents mx-10 mb-10 lg:max-w-3xl lg:ml-80'>
+            <div className='Contents lg:max-w-3xl lg:ml-80'>
               <About />
               <Experience />
 
               <Works />
 
-              <div className='relative'>
-
-              </div>
-
-              <div className='scrollUp sticky w-12 flex float-right' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-
-                <img src='\Images\up-arrow-blue.png' />
-
-              </div>
 
 
               {/* Potfolio Downloadable pdf  */}
@@ -55,9 +46,15 @@ function Home() {
 
 
       </div>
+        <div className='scrollUp w-8 fixed bottom-2 right-2 animate-bounce lg:invisible' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+
+          <img src='\Images\up-arrow-blue.png' />
+
+        </div>
 
 
-    </div>
+    </div >
+    
   )
 }
 

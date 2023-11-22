@@ -8,7 +8,7 @@ module.exports = {
       },
       width: {
         '133px': '133px',
-      }
+      },
     },
     colors: {
       grey: '#A9A9A9',
@@ -27,6 +27,7 @@ module.exports = {
       },
     },
   },
+  
   plugins: [],
 }
 
