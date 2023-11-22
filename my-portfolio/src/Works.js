@@ -8,7 +8,7 @@ function Works() {
       <div className="WorkDesc flex flex-col flex-1">
 
         <div>
-          <Subtitle>Projects</Subtitle>
+          <Subtitle>PROJECTS</Subtitle>
 
         </div>
 
