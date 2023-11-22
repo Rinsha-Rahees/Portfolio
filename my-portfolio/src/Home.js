@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 function Home() {
   return (
-    <div className="Home text-beige-purple bg-navyblue-100 font-normal">
+    <div className="Home text-beige-purple bg-navyblue-700 font-normal"> 
 
     <div className='App-content max-w-screen-xl overflow-y-hidden'>
 
