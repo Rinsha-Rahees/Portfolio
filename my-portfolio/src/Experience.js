@@ -78,7 +78,7 @@ function Experience() {
         {/* Make Experience Dynamic and Give View full resume inside Experience to align with design & alignment  */}
 
         <div className='resume mt-6 text-lg font-semibold'>
-          <div className='flex flex-row items-end text-'>View full resume <img src='\Images\up-right-arrow.png' className='w-5' /></div>
+          <div className='flex flex-row items-end text-lightgrey'>View full resume <img src='\Images\up-right-arrow.png' className='w-5' /></div>
         </div>
 
 
