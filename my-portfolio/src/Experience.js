@@ -12,7 +12,7 @@ function Experience() {
       <div className="ExpDesc flex flex-col flex-1">
 
         <div>
-          <Subtitle>Experience</Subtitle>
+          <Subtitle>EXPERIENCE</Subtitle>
 
         </div>
 
