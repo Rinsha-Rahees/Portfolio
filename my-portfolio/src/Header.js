@@ -11,7 +11,7 @@ function Header() {
         <h2 className='text-2xl mt-4 2xl:text-3xl text-blue-light'>Front End</h2>
         <p className='mt-4 max-w-xs 2xl:text-2xl'>I build exceptional and accessible digital experiences for the web.</p>
 
-        <div className="headerMenu mt-2 text-sm text-grey font-medium flex flex-row flex-1 items-left lg:flex lg:flex-col lg:flex-1 2xl:text-2xl">
+        <div className="headerMenu mt-2 text-sm font-medium flex flex-row flex-1 items-left lg:flex lg:flex-col lg:flex-1 2xl:text-2xl">
 
           <Nav href='#about'>ABOUT</Nav>
           <Nav href='#experience'>EXPERIENCE</Nav>
