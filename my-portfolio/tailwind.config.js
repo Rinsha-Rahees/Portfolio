@@ -11,15 +11,15 @@ module.exports = {
       }
     },
     colors: {
-      beige: {
-        purple : '#F7EFE5',
-        purple2 : '#E9D5CA',
-        light : '#FFF2D8',
-        med : '#EAD7BB',
-        dark : '#BCA37F',
-      },
-      navyblue : {
-        100 : '#113946',
+      grey: '#A9A9A9',
+      lightgrey : '#DEE4ED',
+      blue : {
+        dark : '#0F1A32',
+        greenish : '#132C3B',
+        neon : '#53D0D3',
+        peacock : '#0B666A',
+        teal : '#35A29F',
+        light : '#C8D3EC',
         600 : '#06161c',
         700 : '#051115',
         800 : '#030b0e',

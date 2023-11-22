@@ -6,7 +6,7 @@ function Contact() {
 
     <div className='title text-5xl my-16 xl:text-6xl '>
         <span >CONTACT</span>
-        <hr className='solid h-1 bg-navyblue-100' />
+        <hr className='solid h-1 bg-blue-100' />
     </div>
 
 

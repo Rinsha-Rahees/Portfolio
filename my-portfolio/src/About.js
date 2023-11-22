@@ -1,32 +1,24 @@
 import React from 'react'
+import Subtitle from './Components/Subtitle'
 
 function About() {
   return (
-    <div id="about" className="About-Content mx-10">
+    <div id="about" className="About-Content">
 
-      <div className="AboutDesc flex flex-col flex-1 p-6">
-        <h1 className='text-xl text-beige-purple font-semibold mt-4 lg:invisible'>About</h1>
-        <p className='text-beige-purple2 2xl:text-2xl'>I am a QA Engineer who bags 2+ years of experience in software quality assurance. The areas I explored spans but not limited to :
+      <div className="AboutDesc flex flex-col flex-1">
 
-          • API testing
-          • Mobile Application Testing ( Android | iOS )
-          • Web Application Testing
-          • Test plans and Test Case Creation
-          • Test Case Maintenance
-          • Gap Analysis and Requirement Traceability Matrix
-          • Analyzing Business Requirements
-          • Suggesting changes for betterment of product
-          • Documentation and giving Demo
+        <Subtitle>About</Subtitle>
 
-          Domains :-
-          • Payments
-          • Chatbot
-          • Embedded Automotive</p>
+        <p className='2xl:text-2xl mt-6 lg:my-2'>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.
+
+          <br /><br />My main focus these days is building products and leading projects for our clients at Upstatement. In my free time I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.
+          <br /><br />
+          When I’m not at the computer, I’m usually rock climbing, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds
+          .</p>
       </div>
 
+      {/* <hr className='mt-6'/> */}
 
-      {/* Responsive upto Mobile view. By default flex:col ensures it will target mobile devices. From breaking point 'md' and above 
-            we'll specify different. */}
 
     </div>
   )
