@@ -15,12 +15,12 @@ function Home() {
 
         <div className='App-column flex flex-col flex-1'>
 
-          <div className='Contents top-8 ml-2 lg:fixed lg:left-10 xl:left-30 2xl:ml-96 '>
+          <div className='Contents top-8 ml-4 lg:fixed lg:left-10 xl:left-30 2xl:ml-96 '>
             <Header id='header' />
           </div>
 
 
-          <div className='ml-2 mr-12 mb-8 lg:ml-40'>
+          <div className='ml-4 mr-12 mb-8 lg:ml-40'>
 
             <div className='Contents lg:max-w-3xl lg:ml-80'>
               <About />
