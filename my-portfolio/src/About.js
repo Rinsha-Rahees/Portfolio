@@ -9,12 +9,12 @@ function About() {
 
         <Subtitle>ABOUT</Subtitle>
 
-        <p className='2xl:text-2xl mt-6 lg:my-2'>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.
+        <p className='2xl:text-2xl mt-6 lg:my-2'>
+          I'm a self taught <span className='font-bold text-blue-light'>React Developer </span>who loves to dive deep into and master the technology. I was able to get a hold on <span className='font-bold text-blue-light'>Javascript</span><br/><br/>
+          All the experiences like, <span className='font-bold text-blue-light'>mentoring, client interactions, demo presentaions</span> have enhanced my interpersonal communications and relationships.<br/>
+          I'm learning and improving day by day, in all walks of life, including my personal, professional, and social endeavors.
 
-          <br /><br />My main focus these days is building products and leading projects for our clients at Upstatement. In my free time I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.
-          <br /><br />
-          When I’m not at the computer, I’m usually rock climbing, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds
-          .</p>
+        </p>
       </div>
 
       {/* <hr className='mt-6'/> */}

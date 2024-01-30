@@ -8,8 +8,8 @@ function Header() {
       <div className="headerTitle flex flex-col flex-1 items-left mt-8">
 
         <h1 className='text-4xl lg:text-5xl 2xl:text-6xl text-blue-light font-semibold'>Rinsha Rahees</h1>
-        <h2 className='text-2xl mt-4 2xl:text-3xl text-blue-light'>Front End</h2>
-        <p className='mt-4 max-w-xs 2xl:text-2xl'>I build exceptional and accessible digital experiences for the web.</p>
+        <h2 className='text-2xl mt-4 2xl:text-3xl text-blue-light'>Front End Developer</h2>
+        <p className='mt-4 max-w-xs 2xl:text-2xl'>Hola ! <br/>I love building websites where passion meets creativity !!</p>
 
         <div className="headerMenu mt-2 text-sm font-medium flex flex-row flex-1 items-left lg:flex lg:flex-col lg:flex-1 2xl:text-2xl">
 

@@ -61,8 +61,6 @@ function Experience() {
 
             </div>
 
-
-
           </div>
         </div>
 
@@ -77,9 +75,16 @@ function Experience() {
 
         {/* Make Experience Dynamic and Give View full resume inside Experience to align with design & alignment  */}
 
-        <div className='resume mt-6 text-lg font-semibold'>
-          <div className='flex flex-row items-end text-lightgrey'>View full resume <img src='\Images\up-right-arrow.png' className='w-5' /></div>
-        </div>
+          <div className='flex flex-row items-center mt-6 text-lg font-semibold text-lightgrey'>
+            <a 
+            className='flex flex-row items-center'
+            href='https://drive.google.com/drive/folders/180FSW8lMnZNSNJRpcX1hC_bJqEBidXLk'>
+             View full resume 
+            <img 
+            className='w-5 ml-3 mt-2' 
+            src='\Images\right-arrow.png'/>
+            </a>
+          </div>
 
 
         {/* <hr className='mt-8' /> */}

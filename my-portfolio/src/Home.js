@@ -24,10 +24,8 @@ function Home() {
 
             <div className='Contents lg:max-w-3xl lg:ml-80'>
               <About />
-              <Experience />
-
               <Works />
-
+              <Experience />
 
 
               {/* Potfolio Downloadable pdf  */}
