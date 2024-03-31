@@ -3,7 +3,7 @@ import React from 'react'
 function Skills({children}) {
 
   return (
-    <div className='skills rounded-full w-fit p-2 my-3 mr-4 bg-blue-greenish text-blue-neon font-medium'>{children}</div>
+    <div className='flex items-center rounded-full w-fit text-sm px-4 py-1 my-3 mr-2 border border-blue-neon text-blue-neon font-medium'>{children}</div>
   )
 }
 

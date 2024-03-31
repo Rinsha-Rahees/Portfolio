@@ -1,28 +1,33 @@
-import React from 'react'
-import Skills from './Skills'
+import React from "react";
+import Skills from "./Skills";
 
-function ExperienceData({ duration, jobrole, jobDesc }) {
+function ExperienceData(props) {
 
-    return (
-        <div>
+  const { company, role, desc, startDate, endDate, skills } = props
 
-            <div className='flex-1/2 mr-5 mt-1'>
-                <span>{duration}</span>
-            </div>
-            <div className='flex-1 ml-5'>
-                <h3 className='text-xl text-beige-purple 2xl:text-3xl'>{jobrole}</h3>
-                <p className='text-beige-purple2'>{jobDesc}</p>
+  return (
+    <div className="flex flex-col lg:flex-row my-5 2xl:text-2xl">
+      <div className="flex w-full lg:w-1/4 2xl:w-1/6 mb-2 lg:mr-2 lg:mt-1 w-50">
+        <span>{startDate} - {endDate}</span>
+      </div>
+      <div className="flex-1 lg:ml-5">
+        <h3 className="text-xl text-lightgrey mb-2 2xl:text-3xl">
+          {role} . {company}
+        </h3>
+        <p>{desc.map((desc) => (
+          <ul className="list-disc">
+            <li>{desc}</li>
+          </ul>
+        ))}</p>
 
-                {/* <div className='flex flex-row'>
-                    <Skills>React</Skills>
-                    <Skills>CSS</Skills>
-                    <Skills>Javascript</Skills>
-                </div> */}
-
-            </div>
-
+        <div className="flex h-fit">
+          {skills.map((skill) => (
+            <Skills key={skill}>{skill}</Skills>
+          ))}
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default ExperienceData
+export default ExperienceData;
