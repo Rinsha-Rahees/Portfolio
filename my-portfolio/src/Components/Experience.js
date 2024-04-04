@@ -13,6 +13,7 @@ function Experience() {
 
         {EXPERIENCE.map((exp) => (
           <ExperienceData
+            key={exp?.endDate}
             company={exp?.company}
             role={exp?.role}
             desc={exp?.desc}
@@ -21,7 +22,6 @@ function Experience() {
             skills={exp?.skills}
           />
         ))}
-
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import Skills from "./Skills";
+import Skillset from "./Skillset";
 
 function ExperienceData(props) {
 
@@ -14,15 +14,15 @@ function ExperienceData(props) {
         <h3 className="text-xl text-lightgrey mb-2 2xl:text-3xl">
           {role} . {company}
         </h3>
-        <p>{desc.map((desc) => (
-          <ul className="list-disc">
+        <>{desc.map((desc) => (
+          <ul key={desc} className="list-disc">
             <li>{desc}</li>
           </ul>
-        ))}</p>
+        ))}</>
 
-        <div className="flex h-fit">
+        <div className="sm:flex">
           {skills.map((skill) => (
-            <Skills key={skill}>{skill}</Skills>
+            <Skillset key={skill}>{skill}</Skillset>
           ))}
         </div>
       </div>

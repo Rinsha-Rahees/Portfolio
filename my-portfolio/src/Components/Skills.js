@@ -1,10 +1,22 @@
-import React from 'react'
+import React from "react";
+import Subtitle from "./Subtitle";
+import { tools } from "../utils/constants";
+import SkillDataMap from "./SkillDataMap";
 
-function Skills({children}) {
-
+function Skills() {
   return (
-    <div className='flex items-center rounded-full w-fit text-sm px-4 py-1 my-3 mr-2 border border-blue-neon text-blue-neon font-medium'>{children}</div>
-  )
+    <div id="skills">
+      <div className="WorkDesc flex flex-col flex-1 my-8">
+        <Subtitle>SKILLS</Subtitle>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 mt-4 text-blue-light font-medium">
+        {tools.map((tool) => (
+            <SkillDataMap key={tool?.name} name={tool?.name} icon={tool?.src} />
+        ))}
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Skills
+export default Skills;
