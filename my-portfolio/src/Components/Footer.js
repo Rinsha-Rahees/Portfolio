@@ -5,7 +5,7 @@ function Footer() {
     <div className="flex flex-col w-fit h-fit z-10 py-12">
       <a
         className="flex w-full h-fit justify-center items-start text-2xl 2xl:text-3xl hover:underline text-lightgrey cursor-pointer"
-        href="https://drive.google.com/file/d/13e91sDqc4fJWpv1AK0l4812PdXoOMYyo/view?usp=sharing"
+        href="https://drive.google.com/file/d/1n_19ZaFD22VSPs6MueGnen0gvZ5mGCkJ/view?usp=sharing"
         target="_blank">
         <h3>
           View full resume
