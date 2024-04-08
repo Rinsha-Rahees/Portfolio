@@ -3,11 +3,10 @@ import Subtitle from "./Subtitle";
 
 function About() {
   return (
-    <div id="about">
-      <div className="AboutDesc flex flex-col mt-6 lg:mt-0">
+      <div id="about" className="AboutDesc flex flex-col mt-6 lg:mt-0">
         <Subtitle>ABOUT</Subtitle>
 
-        <p className="2xl:text-2xl my-5">
+        <p className="2xl:text-2xl b-5">
           Since 2020, I've immersed myself in software development, starting as
           a <span className="text-blue-light">QA engineer</span> in{" "}
           <span className="text-blue-light">Agile methodology</span>. From
@@ -33,7 +32,6 @@ function About() {
         </p>
       </div>
 
-    </div>
   );
 }
 

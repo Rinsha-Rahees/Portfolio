@@ -6,7 +6,7 @@ function ExperienceData(props) {
   const { company, role, desc, startDate, endDate, skills } = props
 
   return (
-    <div className="flex flex-col lg:flex-row my-5 2xl:text-2xl">
+    <div className="flex flex-col lg:flex-row my-3 py-5 2xl:text-2xl border rounded-md border-blue-600 shadow-md p-2">
       <div className="flex w-full lg:w-1/4 2xl:w-1/6 mb-2 lg:mr-2 lg:mt-1 w-50">
         <span>{startDate} - {endDate}</span>
       </div>

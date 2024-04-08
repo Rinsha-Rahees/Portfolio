@@ -6,7 +6,7 @@ function WorkDesc(props) {
 
   return (
     <a
-      className="flex flex-col-reverse lg:flex-row my-5 2xl:text-2xl hover:bg-blue-greenish rounded-md p-2"
+      className="flex flex-col-reverse lg:flex-row my-3 py-5 2xl:text-2xl hover:bg-blue-greenish border rounded-md border-blue-600 shadow-md p-2"
       href={livelink}
       target="_blank">
       <div className="flex w-full lg:w-1/4 2xl:w-1/6  h-fit my-6 lg:mr-2 lg:mt-2 w-50">
