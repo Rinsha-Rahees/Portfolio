@@ -15,7 +15,7 @@ function ExperienceData(props) {
           {role} . {company}
         </h3>
         <>{desc.map((desc) => (
-          <ul key={desc} className="list-disc">
+          <ul key={desc} className="pl-7 list-disc">
             <li>{desc}</li>
           </ul>
         ))}</>

@@ -48,7 +48,7 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
     {
-        company:"Millennium EBS PVT. LTD",
+        company:"Millennium EBS Pvt. Ltd.",
         role:"QA Automation Engineer",
         desc:[" Automated testing for the application, including scripts for parallel testing across different browsers.",
         "Trained interns and presented product demos to clients and internal team.",],
@@ -57,7 +57,7 @@ export const EXPERIENCE = [
         skills:[ "Java", "Selenium", "Jira", "Github"]
     },
     {
-        company:"Millennium EBS PVT. LTD",
+        company:"Millennium EBS Pvt. Ltd.",
         role:"QA Manual Test Engineer",
         desc:["Worked on Payments and Chatbot domains.", "Gained knowledge in ISO Standards ( ISO20022 ).",
         "Proficiency in testing ISO Standard Converter ( MT, MX, PACS )",],
