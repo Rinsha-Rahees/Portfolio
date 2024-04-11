@@ -1,3 +1,20 @@
+export const SOCIALS = [
+    {
+    name:"Email",
+    href: "mailto:rinsharahees6@gmail.com",
+    src:"/Images/email.png"
+},{
+    name:"Github",
+    href: "https://github.com/Rinsha-Rahees",
+    src:"/Images/github.png"
+},{
+    name:"LinkedIn",
+    href: "https://www.linkedin.com/in/rinsha-rahees/",
+    src:"/Images/linkedin.png"
+},
+
+]
+
 export const PROJECTS = [
     {
         name:"Resumer",
@@ -18,7 +35,7 @@ export const PROJECTS = [
         desc:"Netflix insipred movie listing app with Open AI movie suggestion feature, multilingual support and Firebase User Authentication.",
         skills:["React", "Redux Toolkit", "Tailwind CSS", "Firebase Auth"],
         screenshotUrl:"/Images/netflix_gpt.png",
-        liveLink:"https://netflix-9bad7ip8v-rinsha-s-projects.vercel.app/browse"
+        liveLink:"https://netflix-gpt-rho-rose.vercel.app/"
     },
     {
         name:"Memory Test",
@@ -58,7 +75,7 @@ export const EXPERIENCE = [
     }
 ]
 
-export const tools = [{
+export const TOOLS = [{
     name:"JavaScript", src: "/Images/js.png",
 },
 {

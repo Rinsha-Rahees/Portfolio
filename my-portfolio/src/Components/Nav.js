@@ -17,7 +17,7 @@ function Nav(props) {
     <nav>
       <ul className="flex items-center mt-5 w-fit hover:text-blue-light">
         <li className="flex items-center mr-6 sm:mr-16 ">
-          <hr className="w-8 mr-3 hidden sm:flex" />
+          <hr className="w-8 mr-3 hidden lg:flex" />
           <a 
           href={href} 
           onClick={handleClick}
