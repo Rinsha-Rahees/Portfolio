@@ -4,7 +4,7 @@ function SkillDataMap({ name, icon }) {
   return (
     <div className="flex py-5">
       <h2 className="mr-4">{name}</h2>
-      <img className="w-7" src={icon} alt="Skill Logo" />
+      <img className="w-7 h-7" src={icon} alt="Skill Logo" />
     </div>
   );
 }
