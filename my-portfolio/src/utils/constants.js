@@ -32,7 +32,7 @@ export const PROJECTS = [
     },
     {
         name:"Netflix-GPT",
-        desc:"Netflix insipred movie listing app with Open AI movie suggestion feature, multilingual support and Firebase User Authentication.",
+        desc:"Netflix inspired movie listing app with Open AI movie suggestion feature, multilingual support and Firebase User Authentication.",
         skills:["React", "Redux Toolkit", "Tailwind CSS", "Firebase Auth"],
         screenshotUrl:"/Images/netflix_gpt.png",
         liveLink:"https://netflix-gpt-rho-rose.vercel.app/"

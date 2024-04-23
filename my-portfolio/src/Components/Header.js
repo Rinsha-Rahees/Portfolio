@@ -9,6 +9,7 @@ function Header() {
       className="App-header lg:fixed lg:overflow-y-hidden h-full">
       <div className="headerTitle flex flex-col items-left">
         <div>
+          <img/>
           <h1 className="text-4xl lg:text-5xl 2xl:text-6xl text-blue-light font-semibold">
             Rinsha Rahees
           </h1>
